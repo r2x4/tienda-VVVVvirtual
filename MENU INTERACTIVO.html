@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <div style="display: flex; justify-content: center;">
+        <h1 style="color:rgba(206, 12, 12, 0.945); font-size:30px;">Proyecto poli</h1>
+      </div>
+      <section></section>
+    <div style="display: flex; justify-content: center;">
+      <h2 style="color:rgb(170, 46, 46); font-size:40px;">Nuestro Menu </h2>
+    </div>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Restaurante</title>
+  <style>
+    
+  
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+    }
+
+    #menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .menu-item {
+      border: 1px solid #0e0d0d;
+      margin: 10px;
+      padding: 15px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .menu-item img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .menu-item button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: rgb(235, 12, 12);
+      color: rgb(248, 246, 246);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+</style>
+</head>
+<body>
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/IMAGENES/fav" type="image/x-icon">
+        <link rel="stylesheet" href="./CSS O HTML/normalize.css">
+        <link rel="stylesheet" href="./CSS O HTML/fuente.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+</head>
+<body>
+
+  <div id="menu-container">
+    <div class="menu-item">
+      <img src="https://hamburguesasdelrodeo.com/cdn/shop/products/hamburguesa_doble_carne_1024x1024.png?v=1594184497" width="280px">
+      <h3>Hamburguesa de Carne</h3>
+      <p>Precio: $ 15000</p>
+      <button onclick="solicitarProducto('Hamburguesa de Carne', 15000)">Solicitar</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://dondepele.localhero.com.co/uploads/lh86_dondepele/products/23/es/img-HAMBURGUESA-SENCILLA-DE-CARNE-Mediano.jpg" width="280px">
+      <h3>Hamburguesa de Pollo</h3>
+      <p>Precio: $ 16000</p>
+      <button onclick="solicitarProducto('Hamburguesa de Pollo', 16000)">Solicitar</button>
+    </div>
+
+    <div class="menu-item">
+        <img src="https://www.peppergourmet.com/app_data_archivos/peppergourmet.soomi.co/productos/producto_7a1c8287054ad833f3f39a8f04df7c094e8613831669741460.jpg" width="280px">
+        <h3>Pizza</h3>
+        <p>Precio: $ 6000</p>
+        <button onclick="solicitarProducto('Pizza', 6000)">Solicitar</button>
+      </div>
+
+      <div id="menu-container">
+        <div class="menu-item">
+          <img src="https://caracol.com.co/resizer/8S5LQmJKaj3J0Ul8SM0vMyIsf3s=/1024x1024/filters:format(jpg):quality(70):focal(742x692:752x702)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/B34NSZP6ONBTVCU2IFESKLQ3XM.jpg" width="280px">
+          <h3>Hot Dog</h3>
+          <p>Precio: $ 14000</p>
+          <button onclick="solicitarProducto('Hot Dog', 14000)">Solicitar</button>
+        </div>
+    
+        <div class="menu-item">
+          <img src="https://hermes-files.pulzo2.com/images/9997a4d5-9d01-4738-9469-cdecc29735d0.jpg" width="280px">
+          <h3>Salchipapa</h3>
+          <p>Precio: $ 12000</p>
+          <button onclick="solicitarProducto('Salchipapa', 12000)">Solicitar</button>
+        </div>
+    
+        <div class="menu-item">
+            <img src="https://www.cookwithnabeela.com/wp-content/uploads/2023/02/ChickenNuggets.webp" width="280px">
+            <h3>Nuggets de Pollo</h3>
+            <p>Precio: $ 12000</p>
+            <button onclick="solicitarProducto('Nuggets de Pollo', 12000)">Solicitar</button>
+          </div>
+
+          <div id="menu-container">
+            <div class="menu-item">
+              <img src="https://www.unileverfoodsolutions.com.co/dam/global-ufs/mcos/NOLA/calcmenu/recipes/col-recipies/fruco/ALITAS-SALSA-1024X1024-px.jpg" width="280px">
+              <h3>Alitas BBQ</h3>
+              <p>Precio: $ 11000</p>
+              <button onclick="solicitarProducto('Alitas BBQ', 11000)">Solicitar</button>
+            </div>
+        
+            <div class="menu-item">
+              <img src="https://i.bssl.es/guiamaximin/2022/01/Costillar-iberico-a-baja-temperatura-glaseado-con-barbacoa-La-Lupa-1024x1024.jpg" width="280px">
+              <h3>Costillas BBQ</h3>
+              <p>Precio: $ 20000</p>
+              <button onclick="solicitarProducto('Costillas BBQ', 20000)">Solicitar</button>
+            </div>
+        
+            <div class="menu-item">
+                <img src="https://assets.afcdn.com/recipe/20210419/119565_w1024h1024c1cx259cy517.jpg" width="280px">
+                <h3>Lasaña</h3>
+                <p>Precio: $ 17000</p>
+                <button onclick="solicitarProducto('Lasaña', 17000)">Solicitar</button>
+              </div>
+
+              <div id="menu-container">
+                <div class="menu-item">
+                  <img src="https://www.publimetro.co/resizer/h8IXIBBwVrBceT8JZCHVtvx3JS8=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/GCNIWKJBPFDNNB7TCFYMHDHOFI.jpg" width="280px">
+                  <h3>Porcion Papas Fritas</h3>
+                  <p>Precio: $ 5000</p>
+                  <button onclick="solicitarProducto('Porcion Papas Fritas', 5000)">Solicitar</button>
+                </div>
+            
+                <div class="menu-item">
+                  <img src="https://www.fayerwayer.com/resizer/h-veuM_h9D1OhoH4yWSEeTK2GdA=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/33LF7CFWMVF43K55TNDGAYUMLA.jpg" width="280px">
+                  <h3>Gaseosas</h3>
+                  <p>Precio: $ 2500</p>
+                  <button onclick="solicitarProducto('Gaseosas', 2500)">Solicitar</button>
+                </div>
+            
+                <di class="menu-item">
+                    <img src="https://www.nutriologamurguia.com/wp-content/uploads/2023/03/Recetario-Jugos-2023-1-1024x1024.jpg" width="280px">
+                    <h3>Jugos Naturales en Agua y Leche</h3>
+                    <p>Precio: $ 7000</p>
+                    <button onclick="solicitarProducto('LJugos Naturales en Agua y Lecheasaña', 7000)">Solicitar</button>
+                
+  </div>
+
+<select id="mesa-selector">
+      <option value="1">Mesa 1</option>
+      <option value="2">Mesa 2</option>
+      <option value="3">Mesa 3</option>
+      <option value="4">Mesa 4</option>
+      <option value="5">Mesa 5</option>
+      <option value="6">Mesa 6</option>
+      <option value="7">Mesa 7</option>
+      <option value="8">Mesa 8</option>
+      <option value="9">Mesa 9</option>
+      <option value="10">Mesa 10</option>
+      <option value="11">Mesa 11</option>
+      <option value="12">Mesa 12</option>
+    </select>
+  </div>
+
+  <script>
+   function solicitarProducto(nombre, precio) {
+            const mesaSeleccionada = document.getElementById("mesa-selector").value;
+            alert(`Producto solicitado: ${nombre}\nPrecio: $${precio}\nMesa: ${mesaSeleccionada}`);
+    }
+  </script>
+
+</body>
+</html>
